@@ -67,10 +67,6 @@ console.log(escapee);  // 块外访问：正常
 // console.log(prisoner); // 块外访问：报错！ReferenceError
 // console.log(guard);    // 块外访问：报错！ReferenceError
 ```
-5.函数
-	- var a = function（）{……}，实际上是创建了一个函数对象，把这个对象的地址交给了a
-	- 即使函数定义里没写参数，但是也有个隐形参数arguments来存储
-	- 不需要声明返回值类型和参数类型，变量可以指向任何类型的值，类型由运行时决定
 ### 1.2.2 Array数组
 1. JS数组和传统数组的区别
 	- JS里的数组相当于大杂烩，长度可变，类型不限；传统数组固定大小，且只能装同一钟数据
@@ -92,3 +88,32 @@ arr.splice(1, 1, "M"); // 从索引1开始，删1个(B)，换成"M" -> ["A", "M"
 var str = arr.join("-"); // 把数组连成字符串 -> "A-M-C"
 ```
 ### 1.2.3 函数
+1. function（）一般写法
+- var a = function（）{……}，实际上是创建了一个函数对象，把这个对象的地址交给了a
+	- 即使函数定义里没写参数，但是也有个隐形参数arguments来存储
+	- 不需要声明返回值类型和参数类型，变量可以指向任何类型的值，类型由运行时决定
+	- function（）的两个写法
+```js
+let a = function(){
+	let sum = 0;
+	for(let i = 0;i<arguments.length;i++){
+		sum+=arguments[i];
+	}
+	return sum;
+}
+let a1 = a(1,2,3,4);
+console.log(a1);	   //10
+console.log(a);	  //打印匿名函数的代码块
+
+function add(){
+	let sum = 0;
+	for(let i=0;i<arguments.length;i++){
+		sum+=arguments[i];
+	}
+	return sum;
+}
+let a2 = add(1,2,3,4);
+console.log(a2);
+```
+2. 闭包
+	- 
