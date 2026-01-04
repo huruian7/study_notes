@@ -161,13 +161,23 @@
               "icon": "lucide-list",
               "title": "大纲"
             }
+          },
+          {
+            "id": "efa8bbd919624a74",
+            "type": "leaf",
+            "state": {
+              "type": "git-view",
+              "state": {},
+              "icon": "git-pull-request",
+              "title": "Source Control"
+            }
           }
-        ]
+        ],
+        "currentTab": 5
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -185,6 +195,7 @@
   "lastOpenFiles": [
     "README.md",
     "JavaScript修炼.md",
+    "未命名.canvas",
     "Pasted image 20260104184104.png"
   ]
 }
