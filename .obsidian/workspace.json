@@ -27,12 +27,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Github开源项目.md",
+                "file": "JavaScript修炼.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Github开源项目"
+              "title": "JavaScript修炼"
             }
           }
         ],
@@ -207,10 +207,10 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "fed3cd990b4fa112",
+  "active": "b57551af06bc0783",
   "lastOpenFiles": [
-    "JavaScript修炼.md",
     "Github开源项目.md",
+    "JavaScript修炼.md",
     "图片/Pasted image 20260104225846.png",
     "图片/var和let&&const.png",
     "图片",
