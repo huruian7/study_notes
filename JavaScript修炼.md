@@ -12,6 +12,15 @@ git push origin JavaScript              //origin是远程仓库代号，JavaScri
 补充：
 git init   把普通的文件夹变为受git保护的文件夹
 git status 可以看当前的状态（发生了哪些变化）
+
+
+如果连接github失败
+#### ⚠️ 网络连接排错 (Port 443)
+1. **排查端口**：通过 `系统设置 > 代理` 查看。
+2. **确认监听**：使用 `netstat -ano | findstr "LISTENING"` 确认端口号（如 10810）是否活动。
+3. **配置 Git**：
+   - 开启代理：`git config --global http.proxy http://127.0.0.1:10810`
+   - 关闭代理：`git config --global --unset http.proxy`
 ```
 ### 1.1.2  obsidian快捷操作
 1. ctrl家族
