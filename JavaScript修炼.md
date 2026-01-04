@@ -24,15 +24,17 @@ git status 可以看当前的状态（发生了哪些变化）
 ---
 
 ## 1.2 基础语法
-### 1.2.1变量
+### 1.2.1概念
 1. var的定义
 	- var是一个什么数据类型都能装的变量。注意：var是老一代的声明方式，ES6标准更喜欢用let（变量），const（常量）
 	- var&&let&&const
-		![[Pasted image 20260104205201.png]]
+		![[var和let&&const.png]]
 2. 三种输出
 	- alert（）  弹出警告框
 	- document.writr（）  把内容输出到网页上
 	- console.log（）  在控制台打印信息
+3. JavaScript特点
+	- 
 ### 1.2.2 Array数组
 1. JS数组和传统数组的区别
 	- JS里的数组相当于大杂烩，长度可变，类型不限；传统数组固定大小，且只能装同一钟数据
