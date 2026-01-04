@@ -133,8 +133,12 @@ function test(){
 	}	
 }
 let inner = test();
-test(1);//第一次调用
-test(1);//第二次调用
+inner(1);//第一次调用
+inner(1);//第二次调用
+//该函数可以实现计数效果
 
-该函数可以实现计数效果
+inner = null;//需要垃圾回收
+inner(1);    //报错，this is not a function
 ```
+垃圾回收机制
+1. 执行inner=
