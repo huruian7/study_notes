@@ -2,12 +2,16 @@
 
 ```## 法宝```
 - [x] obsidian连接github，实现本地和云端同步存储
-方法一：插件Git，可以自动提交
+方法一：插件Git，可以自动提交同步
 方法二：在本地文件夹目录下输入cmd
 ```
-git add .                               //
+git add .                               //把该目录下的所有文件都添加到箱子里
 git commit -m "新增了JavaScript修炼文件"  //-m是告诉git这次提交的注释，必须有，方便回溯
-git push origin main                    //
+git push origin main                    //origin是远程仓库代号，main是当前分支
+
+补充：
+git init   把普通的文件夹变为受git保护的文件夹
+git status 可以看当前的状态（发生了哪些变化）
 ```
 
 - [ ] var的定义
