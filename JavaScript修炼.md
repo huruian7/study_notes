@@ -141,4 +141,20 @@ inner = null;//需要垃圾回收
 inner(1);    //报错，this is not a function
 ```
 垃圾回收机制
-1. 执行inner=
+1. 执行inner=null；断开连接，变量inner不再指向那个内部函数对象
+2. 内部函数不再被变量引用，函数被孤立，变量a也会随之消失
+3. JavaScript的垃圾回收扫描到这些不可达的变量会自动销毁
+
+## 2.2自执行函数
+定义：在定义后便立刻执行的函数，没有名字，一般配合闭包使用
+```js
+let inner = function(){
+	let a=0;
+	return function(increment){
+		a+=increment;
+		console.log(a);
+	}
+}
+inner(1);
+```
+
