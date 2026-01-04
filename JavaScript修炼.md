@@ -146,15 +146,18 @@ inner(1);    //报错，this is not a function
 3. JavaScript的垃圾回收扫描到这些不可达的变量会自动销毁
 
 ## 2.2自执行函数
-定义：在定义后便立刻执行的函数，没有名字，一般配合闭包使用
+1. 定义：在定义后便立刻执行的函数，没有名字，一般配合闭包使用
 ```js
-let inner = function(){
+let inner = (function(){
 	let a=0;
 	return function(increment){
 		a+=increment;
 		console.log(a);
 	}
-}
+})()
 inner(1);
 ```
 
+2. 提问：为什么要写的这么奇怪？
+	- 核心目的是用完即丢，不留痕迹！！！第一个括号包裹函数体，第二个括号立即执行，定义即运行
+	- 匿名保护，直接承接，避免全局污染，访问变量a只有inner这一个外部接口
