@@ -1,39 +1,7 @@
 # 第一章 初入新手村
-## 1.1 法宝
-### 1.1.1 github同步云端
-- [x] obsidian连接github，实现本地和云端同步存储
-方法一：插件Git，可以自动提交同步
-方法二：在本地文件夹目录下输入cmd
-```bash
-git add .                               //把该目录下的所有文件都添加到箱子里
-git commit -m "新增了JavaScript修炼文件"  //-m是告诉git这次提交的注释，必须有，方便回溯
-git push origin JavaScript              //origin是远程仓库代号，JavaScript是当前分支
 
-补充：
-git init   把普通的文件夹变为受git保护的文件夹
-git status 可以看当前的状态（发生了哪些变化）
-
-
-如果连接github失败
-#### ⚠️ 网络连接排错 (Port 443)
-1. **排查端口**：通过 `系统设置 > 代理` 查看。
-2. **确认监听**：使用 `netstat -ano | findstr "LISTENING"` 确认端口号（如 10810）是否活动。
-3. **配置 Git**：
-   - 开启代理：`git config --global http.proxy http://127.0.0.1:10810`
-   - 关闭代理：`git config --global --unset http.proxy`
-```
-### 1.1.2  obsidian快捷操作
-1. ctrl家族
-	- ctrl+数字  切换标题
-	- ctrl+p     打开命令面板    
-	- ctrl+l     无序列表/有序列表/待办
-	- ctrl+e     切换编辑/阅读模式
-2. 符号
-	- [[]]       输入双中括号可以链接另一份笔记
----
-
-## 1.2 基础语法
-### 1.2.1概念
+## 1.1 基础语法
+### 1.1.1概念
 1. var的定义
 	- var是一个什么数据类型都能装的变量。注意：var是老一代的声明方式，ES6标准更喜欢用let（变量），const（常量）
 	- var&&let&&const
@@ -76,7 +44,7 @@ console.log(escapee);  // 块外访问：正常
 // console.log(prisoner); // 块外访问：报错！ReferenceError
 // console.log(guard);    // 块外访问：报错！ReferenceError
 ```
-### 1.2.2 Array数组
+### 1.1.2 Array数组
 1. JS数组和传统数组的区别
 	- JS里的数组相当于大杂烩，长度可变，类型不限；传统数组固定大小，且只能装同一钟数据
 2. 常见方法
@@ -96,7 +64,7 @@ arr.splice(1, 1, "M"); // 从索引1开始，删1个(B)，换成"M" -> ["A", "M"
 // 4. join(): 合体
 var str = arr.join("-"); // 把数组连成字符串 -> "A-M-C"
 ```
-### 1.2.3 函数
+### 1.1.3 函数
 1. function（）一般写法
 - var a = function（）{……}，实际上是创建了一个函数对象，把这个对象的地址交给了a
 	- 即使函数定义里没写参数，但是也有个隐形参数arguments来存储

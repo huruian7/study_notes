@@ -22,6 +22,38 @@ Alist设置：
 - **结果**：挂载成功后，你不需要打开网盘 App，直接通过 AList 这个“水龙头”就能管理、查看或下载云端的所有文件
 ```
 
-# 第二章 Clash Verge+Antigravity tool
+# 第二章 Clash Verge+Antigravity tool额度监控
 1. github上安装clash verge，开全局，tun模式
 2. Antigravity tool解决谷歌账号无资质问题
+
+# 第三章 Obsidian+Git本地云端同步存储
+官网下载obsidian和git
+方法一：插件Git，可以自动提交同步
+方法二：在本地文件夹目录下输入cmd
+```bash
+git add .                               //把该目录下的所有文件都添加到箱子里
+git commit -m "新增了JavaScript修炼文件"  //-m是告诉git这次提交的注释，必须有，方便回溯
+git push origin JavaScript              //origin是远程仓库代号，JavaScript是当前分支
+
+补充：
+git init   把普通的文件夹变为受git保护的文件夹
+git status 可以看当前的状态（发生了哪些变化）
+
+
+如果连接github失败
+#### ⚠️ 网络连接排错 (Port 443)
+1. **排查端口**：通过 `系统设置 > 代理` 查看。
+2. **确认监听**：使用 `netstat -ano | findstr "LISTENING"` 确认端口号（如 10810）是否活动。
+3. **配置 Git**：
+   - 开启代理：`git config --global http.proxy http://127.0.0.1:10810`
+   - 关闭代理：`git config --global --unset http.proxy`
+ --------------------------------------------------------------------------------- 
+obsidian快捷操作
+1. ctrl家族
+	- ctrl+数字  切换标题
+	- ctrl+p     打开命令面板    
+	- ctrl+l     无序列表/有序列表/待办
+	- ctrl+e     切换编辑/阅读模式
+2. 符号
+	- [[]]       输入双中括号可以链接另一份笔记
+---
