@@ -24,4 +24,4 @@ Alist设置：
 
 # 第二章 Clash Verge+Antigravity tool
 1. github上安装clash verge，开全局，tun模式
-2. Antigravity tool登录
+2. Antigravity tool解决谷歌账号无资质问题
