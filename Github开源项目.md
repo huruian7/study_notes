@@ -1,4 +1,4 @@
-# AList+IDM-Activation-Script无限续杯
+# 第一章 AList+IDM-Activation-Script无限续杯
 1. AList负责获取直链地址，idm负责下载，iac负责无限续杯（都需要先从github那里下载，idm官网下载）
 2. IDM-Activation-Script负责清空本机idm的注册信息（右击运行脚本文件即可）
 ```
@@ -21,3 +21,5 @@ Alist设置：
     
 - **结果**：挂载成功后，你不需要打开网盘 App，直接通过 AList 这个“水龙头”就能管理、查看或下载云端的所有文件
 ```
+
+# 第二章 Clash Verge
