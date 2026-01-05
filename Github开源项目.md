@@ -22,4 +22,6 @@ Alist设置：
 - **结果**：挂载成功后，你不需要打开网盘 App，直接通过 AList 这个“水龙头”就能管理、查看或下载云端的所有文件
 ```
 
-# 第二章 Clash Verge
+# 第二章 Clash Verge+Antigravity tool
+1. github上安装clash verge，开全局，tun模式
+2. Antigravity tool登录
