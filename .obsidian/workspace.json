@@ -27,12 +27,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "JavaScript修炼.md",
+                "file": "MySQL.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "JavaScript修炼"
+              "title": "MySQL"
             }
           }
         ],
@@ -206,8 +206,11 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "b57551af06bc0783",
+  "active": "fed3cd990b4fa112",
   "lastOpenFiles": [
+    "README.md",
+    "MySQL.md",
+    "JavaScript修炼.md",
     "Github开源项目.md",
     "概率论速成.md",
     "图片/var和let&&const.png",
@@ -215,10 +218,8 @@
     "图片/P(X)公式.png",
     "P(x)公式.md",
     "图片/Pasted image 20260104225846.png",
-    "JavaScript修炼.md",
     "图片",
     "图片.md",
-    "README.md",
     "未命名.canvas",
     "Pasted image 20260104184104.png"
   ]
