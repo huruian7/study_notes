@@ -27,12 +27,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "概率论速成.md",
+                "file": "JavaScript修炼.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "概率论速成"
+              "title": "JavaScript修炼"
             }
           }
         ],
@@ -206,14 +206,14 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "fed3cd990b4fa112",
+  "active": "b57551af06bc0783",
   "lastOpenFiles": [
+    "Github开源项目.md",
+    "概率论速成.md",
     "图片/var和let&&const.png",
     "图片/代理作用.png",
     "图片/P(X)公式.png",
-    "概率论速成.md",
     "P(x)公式.md",
-    "Github开源项目.md",
     "图片/Pasted image 20260104225846.png",
     "JavaScript修炼.md",
     "图片",
