@@ -29,6 +29,7 @@ truncate清空后主键自增也会清除，delete from 不会！
 ## 1.3.1 where过滤：
 1. =,!=,<,>             精准查询，比如select * from student where s_id =1;
 2. %，_                   模糊查询，比如select * from student where s_id like "2%";(记住要加“”)
+ %代表的是“0个、1个或多个字符,%a%表示a可以出现在任何地方
 3. in,between and  范围查询,   比如select * from student where s_id in (1,2,3);(记住in要加小括号)
 4. is null,is not null 判断为空，比如select * from student where s_id is not null;
 5. and,or,not,xor    逻辑组合,  比如select * from student where s_age<20 and score >80;
