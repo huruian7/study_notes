@@ -82,6 +82,9 @@ on update set cascade
 on update restrict(默认)
 ```
 
+2.1.2 字段属性
+![[key属性.png]]
+MUL一般为外键
 # 第三章 查询
 分为多表查询，子查询（都属于DQL语句，单独划为一章是因为这个知识点比较杂乱）
 ## 3.1 多表查询
@@ -98,3 +101,4 @@ ON
     s.class_id = c.class_id; -- 连接条件：两个 ID 必须相等
 ```
 ### 3.1.2 right join和left join
+![[left jon 和right join.png]]
