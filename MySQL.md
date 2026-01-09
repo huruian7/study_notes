@@ -84,3 +84,16 @@ on update restrict(默认)
 
 # 第三章 查询
 分为多表查询，子查询（都属于DQL语句，单独划为一章是因为这个知识点比较杂乱）
+## 3.1 多表查询
+先找连接条件on，再选择拼法（inner join / left join / right join）
+### 3.1.1 inner join
+```mysql
+SELECT 
+    s.s_name, c.class_name  -- 选出你想要的列
+FROM 
+    student AS s            -- 主表，起个别名 s
+INNER JOIN 
+    class AS c              -- 连上的表，起个别名 c
+ON 
+    s.class_id = c.class_id; -- 连接条件：两个 ID 必须相等
+```
