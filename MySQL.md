@@ -62,11 +62,21 @@ create table if not exists student(
 	foreign key (class_id) references class(class_id)
 ) ;
 
-注意：一般都是用alter table增加外键，因为一般是先建表再连线（解耦的原理）;而且还可以给约束命名
+--注意：一般都是用alter table增加外键，因为一般是先建表再连线（解耦的原理）
 ```
 2. alter table add引入外键
 ```mysql
 alter table student
 add constraint fk_student_class
 foreign key(class_id) references class(class_id);
+
+--级联选项
+on delete set null --班级删除，学生表置空
+on delete cascade  --班级删除，学生表跟着自动删除
+on delete restrict --只要班级里还有学生，就不准删除该班级（默认）
+
+--update同理
+on update set null
+on update set cascade
+on update restrict
 ```
