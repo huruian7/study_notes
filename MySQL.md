@@ -47,6 +47,9 @@ xor  异或（互斥筛选），可以运用于礼券发放场景，假设一个
 2. sum()   求和
 3. avg（）  取平均值
 4. max()  min()    取最大值，最小值
+5. round()   四舍五入 
+ select round(85.6);    --85
+ select round(85.6,2)   --85.00
 
 注意：group by分组后，select查询只能查询分组的字段，否则没有实际意义会报错
 比如select class_id,count( * ) from student group by class_id;   (按谁分组查询谁)
