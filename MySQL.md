@@ -20,6 +20,11 @@ delete from student where id =1;                      (删除指定行)
 区分：truncate（ddL）和delete from（DML）
 truncate清空后主键自增也会清除，delete from 不会！
 
+思考：为什么insert into 不能和alter add一样可以指定位置
+1. 在关系型数据库里，数据库将表视作集合，集合内的元素是没有物理顺序的，ta在哪个位置并不重要
+2. 性能考虑，如果要指定插入的话，那数据库每插入一个元素都要往后挪动，会极大地影响运行速度
+3. 我们最后可以通过select统一解决，不需要多此一举
+
 # 1.3 DQL
 ## 1.3.1 where过滤：
 1. =,!=,<,>             精准查询，比如select * from student where s_id =1;
@@ -30,5 +35,6 @@ truncate清空后主键自增也会清除，delete from 不会！
 
 ## 1.3.2 order by排序
 1. 多字段排序   order by s_age desc,score asc;
-2. 限制查询      order by score desc limit 2;(取成绩最高的两位)     
-             order by
+2. 限制查询       order by score desc limit 2;(取成绩最高的两位)     
+             order by score desc limit 10,2(取成绩第十一和十二位)
+3. desc为降序，asc为升序（默认asc）
