@@ -51,3 +51,6 @@ truncate清空后主键自增也会清除，delete from 不会！
 比如select class_id,count( * ) from student group by class_id;   (按谁分组查询谁)
 
 having则是过滤分组后的数据
+
+# 第二章 约束
+## 字段约束
