@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Github开源项目.md",
+                "file": "MySQL.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Github开源项目"
+              "title": "MySQL"
             }
           }
         ]
@@ -193,13 +193,13 @@
   },
   "active": "3ae1cdbcc6488b10",
   "lastOpenFiles": [
+    "Github开源项目.md",
     "概率论速成.md",
     "MySQL.md",
     "图片/Pasted image 20260108221939.png",
     "JavaScript修炼.md",
     "图片/ddl语句总结.png",
     "README.md",
-    "Github开源项目.md",
     "图片/var和let&&const.png",
     "图片/代理作用.png",
     "图片/P(X)公式.png",

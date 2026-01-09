@@ -21,9 +21,13 @@ delete from student where id =1;                      (删除指定行)
 truncate清空后主键自增也会清除，delete from 不会！
 
 # 1.3 DQL
-### 1.3.1 where过滤：
+## 1.3.1 where过滤：
 1. =,!=,<,>             精准查询，比如select * from student where s_id =1;
 2. %，_                   模糊查询，比如select * from student where s_id like "2%";(记住要加“”)
 3. in,between and  范围查询,   比如select * from student where s_id in (1,2,3);(记住in要加小括号)
 4. is null,is not null 判断为空，比如select * from student where s_id is not null;
 5. and,or,not           逻辑组合,  比如select * from student where s_age<20 and score >80;
+
+## 1.3.2 order by排序
+1. desc 降序，asc 升序
+2. limit n
