@@ -1,4 +1,4 @@
-# code_repository
+# study_notes
 学习笔记
 - [ ] JavaScript[[JavaScript修炼]]
 - [ ] Github开源项目[[Github开源项目]]
