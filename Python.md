@@ -15,7 +15,7 @@
 
 ## 第二章 基础语法
 ## 2.1 注释
-- 多行注释 ''' '''(单引号)
+- 多行注释 “”“ ”“”(双引号)
 - 单行注释 #
 ## 2.2 输入函数input
 ```python
@@ -73,11 +73,20 @@ and or not 与或非
 True False 区分大小写
 ```
 
-## 2.6 if-else分支
+## 2.6 if-elif-else分支
 ```python
 age = int(input("请输入您的年龄"))
 if age > 18:
 	print("您已成年")
 elif age < 18:
 	print("您不能上网")
+```
+
+## 2.7 for循环、
+```python
+import time  
+  
+for i in range(0,10):  
+    print("hello world")  
+    time.sleep(1)
 ```
