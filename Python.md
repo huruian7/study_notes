@@ -78,6 +78,6 @@ True False 区分大小写
 age = int(input("请输入您的年龄"))
 if age>18:
 	print("您已成年")
-else:
+elif age:
 	print("您不能上网")
 ```
