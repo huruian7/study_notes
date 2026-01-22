@@ -120,4 +120,15 @@ print(numbeers[0])   #输出1
 print(numbeers[-6])  #输出1，索引为负号，最小的索引就是列表中的第一个元素
 #切片运算
 print(numbers[0:2])  #输出[1,2]，列表中输出的数字个数为end-start
+print(numbers[::-1])  #反转列表
+#合并运算
+chars = list("hello ")
+print(numbers+chars)
+
+#len(numbers) 获取列表的长度
+#重复运算
+numbers = [0]*6
+#更直观的遍历列表
+for number in numbers:
+	print(number)
 ```
