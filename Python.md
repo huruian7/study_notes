@@ -17,10 +17,7 @@ Python语法：
 - 单行注释#
 ## 2.2 输入函数input
 ```python
-age = input("请输入您的年龄")
-print(type(age))   #输出为str
-age = int(input("请输入您的年龄"))
-print(type(age))   #输出为int
+name,age = input("请输入您的年龄和姓名")
 ```
 
 ## 2.3 输出函数print
@@ -36,6 +33,13 @@ print("English","Chinese","Mysql",sep="|",end="\n")
 %d
 %s
 %f
+
+age = int(input("age:"))  
+name = input("name:")  
+print("age=%d,name=%s" % (age, name))  #注意中间没有逗号
+```
+```python
+#f-string格式
 ```
 
 input如何多个赋值
