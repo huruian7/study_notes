@@ -82,11 +82,19 @@ elif age < 18:
 	print("您不能上网")
 ```
 
-## 2.7 for循环、
+## 2.7 for-in循环(已知循环次数)
 ```python
 import time  
   
 for i in range(0,10):  
     print(i,"hello world")  
     time.sleep(1)
+```
+
+## 2.8 while循环(未知循环次数)
+```python
+account = 1000 #账户金额
+bet_number = 0 #下注金额
+while account < 0 or  bet_number > account:
+	
 ```
