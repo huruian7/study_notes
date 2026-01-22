@@ -87,6 +87,6 @@ elif age < 18:
 import time  
   
 for i in range(0,10):  
-    print("hello world")  
+    print(i,"hello world")  
     time.sleep(1)
 ```
