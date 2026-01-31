@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Python.md",
+                "file": "寒假LeetCode刷题打卡笔记.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Python"
+              "title": "寒假LeetCode刷题打卡笔记"
             }
           }
         ]
@@ -193,9 +193,10 @@
   },
   "active": "3ae1cdbcc6488b10",
   "lastOpenFiles": [
-    "JavaScript修炼.md",
-    "Python.md",
     "README.md",
+    "寒假LeetCode刷题打卡笔记.md",
+    "Python.md",
+    "JavaScript修炼.md",
     "数字逻辑.md",
     "MySQL.md",
     "概率论速成.md",
