@@ -51,6 +51,7 @@ studentId.put("6020221970","hrx");
 2.get() 通过key找到value并返回
 String value = studentID.get(6020221970"");
 3.size() 返回表的大小
+注意数组的length不是方法，不用加小括号
 4.keySet() 返回Map中所有的Key,返回形式是Set
 Set<String> keySet = studentID.keySet();
 5.containsKey 判断HashMap是否包含该key
@@ -66,4 +67,28 @@ Set<String> keySet = studentID.keySet();
 for(String key : keySet){
 	System.out.println("key:"+key+"\t"+"value:"+studentID.get(key));
 }
+```
+
+### 解法2 哈希表
+```java
+import java.util.Map;
+
+class Solution {
+
+    public int[] twoSum(int [] nums, int target) {
+        //HashMap<数字，索引>
+        Map<Integer,Integer> hashMap = new HashMap<>();
+        for(int i = 0; i < nums.length; i++){
+            int complement = target -nums[i];
+            //如果补数在哈希表中就代表找到了两个数，通过哈希表可以直接找到两个数的索引
+            if(hashMap.containsKey(complement)){
+                return new int[]{hashMap.get(complement),i};
+            }
+            //如果补数不在哈希表中则添加补数进哈希表，哈希表就是一个关于target的补数表
+            hashMap.put(nums[i],i);
+        }
+        return new int[0];
+    }
+}
+//时间复杂度为O(n),平均情况为O(1)，n/n==1
 ```
