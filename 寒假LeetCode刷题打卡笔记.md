@@ -53,6 +53,9 @@ String value = studentID.get(6020221970"");
 3.size() 返回表的大小
 4.keySet() 返回Map中所有的Key,返回形式是Set
 Set<String> keySet = studentID.keySet();
+5.containsKey 判断HashMap是否包含该key
+if(hashMap.containsKey(key))
+{...}
 ```
 
 ```java
