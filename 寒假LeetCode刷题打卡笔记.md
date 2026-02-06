@@ -92,3 +92,7 @@ class Solution {
 }
 //时间复杂度为O(n),平均情况为O(1)，n/n==1
 ```
+
+# 2/7
+
+python
