@@ -20,8 +20,21 @@
               "icon": "lucide-file",
               "title": "Python"
             }
+          },
+          {
+            "id": "1b3a1a662770dd19",
+            "type": "leaf",
+            "state": {
+              "type": "release-notes",
+              "state": {
+                "currentVersion": "1.11.7"
+              },
+              "icon": "lucide-book-up",
+              "title": "版本说明 1.11.7"
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -191,7 +204,7 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "3ae1cdbcc6488b10",
+  "active": "1b3a1a662770dd19",
   "lastOpenFiles": [
     "寒假LeetCode刷题打卡笔记.md",
     "README.md",
