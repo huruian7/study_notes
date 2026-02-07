@@ -113,18 +113,20 @@ random()                       返回[0.0,1.0)之间的随机浮点数
 uniform(a,b)                  返回[a,b]之间的随机浮点数
 
 ### 1,3 随机选择序列中的一个元素
-choice(seq)                  等概率返回一个元素
-choices(seq, weights=weights, k=?)          通过k参数返回多个元素，可通过weights参数控制权重
+choice(seq)                                                 等概率返回一个元素
+choices(seq, weights=weights, k=?)          有放回抽样，通过k参数返回多个元素(可能重复)，可通过weights参数控制权重
 ```python
 def choices_demo():
 	students = ["hrx","gjw","xxy","zht"]
-	# weights权重特点是不需要和为1或100，python会
+	# weights权重特点是不需要和为1或100，python会自动处理数据
+	# weights必须是浮点数或整数，且必须与列表一直
 	weights = [1,1,1,7]   
 	for i in range(5):
 		print(random.choices(students, weights=weights, k=2))
 		time.sleep(0.5)
 ```
-sample
+
+sample(seq, k)                                           无返回抽样，返回的k个列表元素无重复
 shuffle
 
 
