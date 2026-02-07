@@ -114,9 +114,19 @@ uniform(a,b)                  返回[a,b]之间的随机浮点数
 
 ### 1,3 随机选择序列中的一个元素
 choice(seq)                  等概率返回一个元素
-choices(seq,k=?)          通过k参数返回多个元素，可通过weight参数控制权重
+choices(seq, weights=weights, k=?)          通过k参数返回多个元素，可通过weights参数控制权重
+```python
+def choices_demo():
+	students = ["hrx","gjw","xxy","zht"]
+	# weights权重特点是不需要和为1或100，python会
+	weights = [1,1,1,7]   
+	for i in range(5):
+		print(random.choices(students, weights=weights, k=2))
+		time.sleep(0.5)
+```
 sample
 shuffle
+
 
 
 
