@@ -109,5 +109,12 @@ range(a,b)
 range(a,b,step)
 
 ### 1,2 随机生成浮点数
-random()                       返回[0,1)之间的随机浮点数
+random()                       返回[0.0,1.0)之间的随机浮点数
 uniform(a,b)                  返回[a,b]之间的随机浮点数
+
+### 1,3 随机选择序列中的一个元素
+choice(seq)
+choices(seq,k=?)
+
+
+
