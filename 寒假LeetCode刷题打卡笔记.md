@@ -95,4 +95,19 @@ class Solution {
 
 # 2/7
 
-python
+## 一，random模块（python）
+### 1,1 随机生成整数
+randint(a,b)                       返回[a,b]之间的随机整数
+randrange(a,b,step)          返回[a ,b)步长为step的随机整数
+
+思考题：和range()有什么区别？
+回答：range()是python的内置函数，有三种调用方式，用来控制循环次数，返回的是一个左闭右开的Range对象
+
+range的三种调用方式:
+range(n)
+range(a,b)
+range(a,b,step)
+
+### 1,2 随机生成浮点数
+random()                       返回[0,1)之间的随机浮点数
+uniform(a,b)                  返回[a,b]之间的随机浮点数
