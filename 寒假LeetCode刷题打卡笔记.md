@@ -100,7 +100,7 @@ class Solution {
 randint(a,b)                       返回[a,b]之间的随机整数
 randrange(a,b,step)          返回[a ,b)步长为step的随机整数
 
-思考题：和range()有什么区别？
+1. 思考题1：和range()有什么区别？
 回答：range()是python的内置函数，有三种调用方式，用来控制循环次数，返回的是一个左闭右开的Range对象
 
 range的三种调用方式:
@@ -108,6 +108,8 @@ range(n)
 range(a,b)
 range(a,b,step)
 
+ 2. 思考题2：随机生成取值边界如何界定？
+ 回答：range，randrange，random都是左闭右开；randint，uniform都是闭区间
 ### 1,2 随机生成浮点数
 random()                       返回[0.0,1.0)之间的随机浮点数
 uniform(a,b)                  返回[a,b]之间的随机浮点数
@@ -133,9 +135,17 @@ shuffle(seq)                                               打乱顺序
 种子是输入给算法的初始数字，只要初始种子相同，在同一算法下，得到的结果也相同。只要在调用random模块函数前设置seed值，那么后续随机的结果就会被固定，所以也叫伪随机
 random.seed(10)
 ```python
-def seed_demo():
+#固定序列（循环外）
+def seed_demo1():
 	random.seed(10)
 	for i in range(100):
+		print(random.randint(1,7))
+		time.sleep(0.5)
+		
+#固定值（循环内）
+def see_demo2():
+	for i in range(100):
+		random.seed(10)
 		print(random.randint(1,7))
 		time.sleep(0.5)
 ```
