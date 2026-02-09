@@ -177,7 +177,11 @@ class Solution {
 1. get()  打开网页
 2. close()  关闭当前标签页
 3. quit()    退出浏览器
-4. maximize_window  最大化
-5. minimize_window  最小化
-6. refresh   刷新当前页面
-7. 
+4. maximize_window()  最大化
+5. minimize_window()  最小化
+6. set_window_size()    设置尺寸
+7. set_window_position  设置位置
+8. refresh()   刷新当前页面
+9. get_screenshoot_as_file  浏览器截图
+
+from 
