@@ -153,3 +153,14 @@ class Solution {
     }
 }
 //时间复杂度为O(n),平均情况为O(1)，n/n==1
+```
+
+# 2/9
+## 一，selenium模块
+## 1.1 Options(浏览器配置)
+### 1.1.1 常用函数
+1. add_argument("")  向浏览器添加命令行开关
+```python
+--headless  无头模式
+--no-sandbox  禁用
+```
