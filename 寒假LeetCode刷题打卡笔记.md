@@ -237,8 +237,13 @@ with open(path,"w"，encoding="utf-8") as f:
 	dump(cookies,f)
 ```
 2. json.load()
+```python
+with open(path,"r",encoding="utf-8") as f:
+	# 将path路径下的文件(f)加载出来转化为python的列表形式
+	json.load(f)
+```
 ### 2.3 其他函数
 driver.get_cookies()   获取cookies
-driver.delete_all_cookies() 
-driver.add_cookie()
+driver.delete_all_cookies()    删除当前所有cookies（因为游客登录也会有cookie,防止冲突）
+driver.add_cookie()     （for in循环可以给浏览器逐个添加cookie）
 
