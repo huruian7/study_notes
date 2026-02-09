@@ -183,5 +183,8 @@ class Solution {
 7. set_window_position  设置位置
 8. refresh()   刷新当前页面
 9. get_screenshoot_as_file  浏览器截图
-
-from 
+### 1.2.2  元素定位（）
+1. 
+from selenium import webdriver
+from selenium.webdriver.edge.service import Service
+from selenium.webdriver.edge.options import Options
