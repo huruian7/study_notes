@@ -157,10 +157,27 @@ class Solution {
 
 # 2/9
 ## 一，selenium模块
-## 1.1 Options(浏览器配置)
+## 1.1 Options (浏览器配置类)
 ### 1.1.1 常用函数
-1. add_argument("")  向浏览器添加命令行开关
+1. add_argument("") 
+向浏览器添加命令行开关
 ```python
 --headless  无头模式
---no-sandbox  禁用
+--no-sandbox  禁用沙盒模式，牺牲安全性换取兼容性
+--start-maximized  启动最大化
 ```
+2. add_experimental_option("","") 
+添加实验性选项，深度控制浏览器，格式为键值对
+```python
+("detach",True)  运行脚本结束后不退出浏览器
+("excludeSwitches",["enable-automation"])   排除开关，value为列表，这行代码的意思是取消“正受自动测试软件控制”提示
+```
+## 1.2 webdriver对象
+### 1.2.1 常用函数
+1. get()  打开网页
+2. close()  关闭当前标签页
+3. quit()    退出浏览器
+4. maximize_window  最大化
+5. minimize_window  最小化
+6. refresh   刷新当前页面
+7. 
