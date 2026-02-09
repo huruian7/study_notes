@@ -183,8 +183,30 @@ class Solution {
 7. set_window_position  设置位置
 8. refresh()   刷新当前页面
 9. get_screenshoot_as_file  浏览器截图
-### 1.2.2  元素定位（）
-1. 
+
+### 1.2.2  元素定位（By）
+1. find_element()       定位一个元素并返回一个结果，找不到报错
+2. find_elements()      定位多个元素并返回列表，找不到返回空列表，可以通过索引切片从列表中找到指定元素
+PS：在浏览器控制台，doucument.getElementByID()可以在控制台定位元素
+
+```python
+# 八种定位方式
+#1,By.ID
+find_element(By.ID,"")
+#2,By.NAME
+#3,By.CLASS_NAME
+#4,By.TAG_NAME
+#5,By.LINK_TEXT
+#6,By.PARTIAL_LINK_TEXT
+#7,By.XPATH
+#8,By.CSS_SELECTOR
+```
+### 1.2.3  元素交互
+1. send_key()   元素输入
+2. clink()   元素点击
+3. clear()   元素清空
+
 from selenium import webdriver
 from selenium.webdriver.edge.service import Service
 from selenium.webdriver.edge.options import Options
+from.selenium.webdriver.common.by import By
