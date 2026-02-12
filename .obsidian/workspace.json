@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Python.md",
+                "file": "寒假打卡笔记.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Python"
+              "title": "寒假打卡笔记"
             }
           }
         ]
@@ -193,10 +193,10 @@
   },
   "active": "3ae1cdbcc6488b10",
   "lastOpenFiles": [
+    "Python.md",
     "数字逻辑.md",
     "寒假打卡笔记.md",
     "图片/Pasted image 20260207145556.png",
-    "Python.md",
     "README.md",
     "JavaScript修炼.md",
     "MySQL.md",
