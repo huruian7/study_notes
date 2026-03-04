@@ -20,8 +20,21 @@
               "icon": "lucide-file",
               "title": "数字逻辑"
             }
+          },
+          {
+            "id": "35f68dbc07c02eb0",
+            "type": "leaf",
+            "state": {
+              "type": "release-notes",
+              "state": {
+                "currentVersion": "1.12.4"
+              },
+              "icon": "lucide-book-up",
+              "title": "版本说明 1.12.4"
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -191,7 +204,7 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "3ae1cdbcc6488b10",
+  "active": "35f68dbc07c02eb0",
   "lastOpenFiles": [
     "寒假打卡笔记.md",
     "数字逻辑.md",
