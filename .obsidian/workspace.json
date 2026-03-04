@@ -41,12 +41,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "HTML.md",
+                "file": "JavaWeb.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "HTML"
+              "title": "JavaWeb"
             }
           }
         ],
@@ -223,7 +223,7 @@
   "active": "d6936692ac2d854c",
   "lastOpenFiles": [
     "寒假打卡笔记.md",
-    "HTML.md",
+    "JavaWeb.md",
     "README.md",
     "Python.md",
     "数字逻辑.md",
