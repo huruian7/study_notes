@@ -50,7 +50,7 @@
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -220,10 +220,10 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "d6936692ac2d854c",
+  "active": "35f68dbc07c02eb0",
   "lastOpenFiles": [
-    "寒假打卡笔记.md",
     "JavaWeb.md",
+    "寒假打卡笔记.md",
     "README.md",
     "Python.md",
     "数字逻辑.md",
