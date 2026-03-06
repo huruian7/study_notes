@@ -27,12 +27,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "寒假打卡笔记.md",
+                "file": "Python.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "寒假打卡笔记"
+              "title": "Python"
             }
           },
           {
@@ -222,8 +222,8 @@
   },
   "active": "35f68dbc07c02eb0",
   "lastOpenFiles": [
-    "JavaWeb.md",
     "寒假打卡笔记.md",
+    "JavaWeb.md",
     "README.md",
     "Python.md",
     "数字逻辑.md",
