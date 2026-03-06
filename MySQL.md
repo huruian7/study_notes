@@ -112,4 +112,4 @@ ON
     s.class_id = c.class_id; -- 连接条件：两个 ID 必须相等
 ```
 ### 3.1.2 right join和left join
-![[left jon 和right join.png]]ssss
+![[left jon 和right join.png]]
