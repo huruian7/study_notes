@@ -44,6 +44,55 @@ True False
 ### 2.1.5 字符串类型
 ### 2.1.6 列表
 有顺序，可重复
+1. 列表构造
+```python
+#有两种列表，一种是字面量[]，另一种是构造器list
+numbers = [1,2,3,4,5,6]
+numbers1 = list(range(1,7))
+
+#注意：与java/c不同，数组遍历不需要用for循环，可以直接print
+```
+2.成员运算
+```python
+numbers = list(range(1,7))  
+#in
+print(1 in numbers)  #输出True
+#索引
+print(numbeers[0])   #输出1
+print(numbeers[-6])  #输出1，索引为负号，最小的索引就是列表中的第一个元素
+#切片运算
+print(numbers[0:2])  #输出[1,2]，列表中输出的数字个数为end-start
+print(numbers[::-1])  #反转列表
+#合并运算
+chars = list("hello ")
+print(numbers+chars)
+
+#len(numbers) 获取列表的长度
+#重复运算
+numbers = [0]*6
+#更直观的遍历列表
+for number in numbers:
+	print(number)
+```
+3. 列表操作
+```python
+fruits = ["apple","banana","watermelon","grape"]
+# append,在尾部添加元素
+fruits.append
+# insert,在指定索引插入元素
+fruits.insert(1,"orange")
+# pop,通过索引删除元素，默认删除尾部元素
+fruits.pop()
+fruits.pop(2)
+# remove，指定元素进行删除
+fruits.remove("banana")
+# clear,清空元素
+fruits.clear()
+
+# index(元素，start,end) 查找指定范围元素的索引
+# count()
+
+```
 ### 2.1.7 元组
 不可修改，有顺序，可重复
 ### 2.1.8 集合
@@ -133,57 +182,4 @@ bet_number = int(input(f"(您的账户余额为{account})\n请输入您的下注
 while bet_number < 0 or  bet_number > account:  
     bet_number = int(input("请重新下注:"))  
 print("请开始游戏")
-```
-
-## 2.9 列表容器[]
-### 2.9.1 列表构造
-```python
-#有两种列表，一种是字面量[]，另一种是构造器list
-numbers = [1,2,3,4,5,6]
-numbers1 = list(range(1,7))
-
-#注意：与java/c不同，数组遍历不需要用for循环，可以直接print
-```
-
-### 2.9.2 成员运算
-```python
-numbers = list(range(1,7))  
-#in
-print(1 in numbers)  #输出True
-#索引
-print(numbeers[0])   #输出1
-print(numbeers[-6])  #输出1，索引为负号，最小的索引就是列表中的第一个元素
-#切片运算
-print(numbers[0:2])  #输出[1,2]，列表中输出的数字个数为end-start
-print(numbers[::-1])  #反转列表
-#合并运算
-chars = list("hello ")
-print(numbers+chars)
-
-#len(numbers) 获取列表的长度
-#重复运算
-numbers = [0]*6
-#更直观的遍历列表
-for number in numbers:
-	print(number)
-```
-
-### 2.9.3 列表操作
-```python
-fruits = ["apple","banana","watermelon","grape"]
-# append,在尾部删除元素
-fruits.append
-# insert,在指定索引插入元素
-fruits.insert(1,"orange")
-# pop,通过索引删除元素，默认删除尾部元素
-fruits.pop()
-fruits.pop(2)
-# remove，指定元素进行删除
-fruits.remove("banana")
-# clear,清空元素
-fruits.clear()
-
-# index(元素，start,end) 查找指定范围元素的索引
-# count()
-
 ```
