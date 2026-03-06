@@ -183,26 +183,17 @@
             "state": {
               "type": "outline",
               "state": {
+                "file": "Python.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "大纲"
-            }
-          },
-          {
-            "id": "efa8bbd919624a74",
-            "type": "leaf",
-            "state": {
-              "type": "git-view",
-              "state": {},
-              "icon": "git-pull-request",
-              "title": "Source Control"
+              "title": "Python 的大纲"
             }
           }
         ],
-        "currentTab": 5
+        "currentTab": 4
       }
     ],
     "direction": "horizontal",
@@ -220,7 +211,7 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "35f68dbc07c02eb0",
+  "active": "622c2bb72da37b8f",
   "lastOpenFiles": [
     "寒假打卡笔记.md",
     "JavaWeb.md",
