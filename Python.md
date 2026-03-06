@@ -67,7 +67,8 @@ print(numbers[::-1])  #反转列表
 chars = list("hello ")
 print(numbers+chars)
 
-#len(numbers) 获取列表的长度
+#获取列表的长度
+len(numbers)
 #重复运算
 numbers = [0]*6
 #更直观的遍历列表
