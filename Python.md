@@ -114,7 +114,10 @@ age，height = map(int,input("请输入您的年龄和身高").split())
 age，height = map(int,input("请输入您的年龄和身高").split())
 age = str(age)
 ```
+```python
+	map()批量处理，接收一个函数和序列，自动把该函数应用到序列的每一个元素，并返回处理后的结果
 
+```
 ## 2.3 输出函数print
 ```python
 print("English","Chinese","Mysql",sep="|",end="\n")
