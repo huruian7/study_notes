@@ -19,3 +19,7 @@ label的for和id绑定（焦点绑定）
 用name属性分组（比如单选框性别，男和女归为一组，可以只选其一）
 type(表单的类型)
 required
+
+label和input关联方式有两种
+第一种为嵌套关联
+第二种为for-id关联
