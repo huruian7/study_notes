@@ -30,10 +30,14 @@ ls [-alh] [路径]
 ```
 ### 2.3 cp-mv-rm
 ```shell
-
-cp 复制文件
+cp/mv/rm [-rf] [源路径] [目标路径]
+作用对象为文件/目录，目录需要-r迭代选项
 ```
-
+### 2.4 touch-cat-more
+```shell
+touch [文件名]
+cat [路径]
+```
 
 su 切换用户
 sudo
