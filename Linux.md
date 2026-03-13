@@ -8,6 +8,14 @@
 	- 双系统
 4. SSH远程连接（FinalShell）：ssh 远程服务器用户名@ip地址
 5. /   Linux,网址；   \   Windows
+## 第二章 基本命令
+### 2.1 ls
+```shell
+ls [-alh] [路径]
+
+#无参默认以
+```
+
 su 切换用户
 sudo
 curl ifconfig.me  只显示ip
