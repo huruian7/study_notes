@@ -10,6 +10,9 @@
 5. /   Linux,网址；   \   Windows
 6. Linux区分大小写
 7. 选中复制，右键粘贴
+8. ssh和mosh
+- ssh是TCP连接
+- mosh是UDP连接
 ## 第二章 基本命令
 ### 2.1 特殊符号
 ```text
@@ -43,6 +46,17 @@ cat [路径]
 
 
 ### 用户和用户组
+#### su和sudo
+```shell
+普通用户权限：仅可以在home目录操作
+1，sudo可以为用户提权（但需要输入密码）
+2，su是切换用户，不写用户名切换为root
+ps：但一般用exit切换用户，因为su是打开一个子进程套娃
+
+这里需要注意的是并不是所有用户都有权使用sudo
+```
+
+#### 添加/删除用户
 ```shell
 useradd [-gdm] 用户名
 1,-g代表指定路径
@@ -51,8 +65,13 @@ useradd [-gdm] 用户名
 
 userdel [-r] 用户名
 1，如果没有-r则不删除对应用户文件夹
+```
+#### 添加/删除用户组
+```shell
+groupadd
+groupdel
 
-
+ps:可以去/etc/group去查看用户组信息
 ```
 su 切换用户
 sudo
