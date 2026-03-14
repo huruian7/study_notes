@@ -44,7 +44,10 @@ cat [路径]
 ```
 2.5 grep wc
 
-
+### vim编辑器
+```shell
+vim有三种编辑模式，默认进入命令模式（还有插入模式，底线）
+```
 ### 用户和用户组
 #### su和sudo
 ```shell
@@ -52,10 +55,15 @@ cat [路径]
 1，sudo可以为用户提权（但需要输入密码）
 2，su是切换用户，不写用户名切换为root
 ps：但一般用exit切换用户，因为su是打开一个子进程套娃
-
-这里需要注意的是并不是所有用户都有权使用sudo
 ```
+#### sudo配置
+```shell
+sudo并不是所有用户都有权使用，需要进行配置(下面以test用户为例)
+1，visudo /etc/sudoers
+2，写入test ALL=(ALL:ALL) NOPASSWD:ALL
 
+ps:切勿用vim编辑，要用visudo，执行这个命令系统会打开nano安全编辑（会自动识别是否写入错误，如果错误回退）
+```
 #### 添加/删除用户
 ```shell
 useradd [-gdm] 用户名
@@ -65,6 +73,8 @@ useradd [-gdm] 用户名
 
 userdel [-r] 用户名
 1，如果没有-r则不删除对应用户文件夹
+
+ps:ubuntu有一个关于创建用户的adduser命令（引导模式），建议使用
 ```
 #### 添加/删除用户组
 ```shell
