@@ -33,12 +33,12 @@ ls [-alh] [路径]
 cp/mv/rm [-rf] [源路径] [目标路径]
 作用对象为文件/目录，目录需要-r迭代选项
 ```
-### 2.4 touch-cat-more
+### 2.4 touch-cat-more-tail
 ```shell
 touch [文件名]
 cat [路径]
 ```
-
+2.5 grep wc
 su 切换用户
 sudo
 curl ifconfig.me  只显示ip
