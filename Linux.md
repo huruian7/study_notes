@@ -9,6 +9,7 @@
 4. SSH远程连接（FinalShell）：ssh 远程服务器用户名@ip地址
 5. /   Linux,网址；   \   Windows
 6. Linux区分大小写
+7. 选中复制，右键粘贴
 ## 第二章 基本命令
 ### 2.1 特殊符号
 ```text
