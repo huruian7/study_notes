@@ -18,9 +18,9 @@
 ```text
 .  当前目录
 ..  上级目录
-~   home目录
+~   用户目录
 /   根目录
-$   普通用户
+$   普通用户（写在变量前表示取值）
 #   root用户
 
 ·· 反引号（被包裹的内容将作为命令执行）
@@ -59,7 +59,9 @@ tail  从尾部查看
 1，配合重定向符把内容写入文件
 echo "hello" > test.txt
 echo "hello" >> test.txt
-2,
+2,取变量的值（一般出现在shell脚本中）
+name=hrx
+echo $name
 ```
 ### vim编辑器
 ```shell
