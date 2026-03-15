@@ -43,11 +43,13 @@ cp/mv/rm [-rf] [源路径] [目标路径]
 ```
 ### 2.4 mkdir-touch-cat-more-tail
 ```shell
-mkdir 目录
-touch [文件名]
-cat [路径]
-more  可翻页查看
-tail  从尾部查看
+1，mkdir 目录
+2，touch [文件名]
+创建的文件后缀在Linux眼中都是文本文件，vim同理
+3，cat [路径]
+4，more  可翻页查看
+5，tail [-fn] 从尾部查看 
+-f为持续追踪，-n为行数
 ```
 ### 2.5 grep wc
 ```shell
@@ -106,7 +108,7 @@ vim有三种编辑模式，默认进入命令模式（还有插入模式，底�
 5. set paste 原样粘贴(set nopaste)
 ```
 ## 第三章 用户
-### 3.1 用户和用户组管理
+### 3.1 用户和用户组
 #### 3.1.1 su和sudo
 ```shell
 普通用户权限：仅可以在home目录操作
@@ -177,4 +179,10 @@ chmod 664 image
 ```
 ### 3.4 chown修改用户/用户组
 ```shell
+仅适用于root用户（其他用户无法执行）
+chown -R [用户]:[用户组] 文件或文件夹
+
+chown root test.txt  修改该文件用户为root
+chown :test test.txt  修改该文件用户组为test
+chown root:test test.txt  修改该文件用户为root，用户组为test
 ```
