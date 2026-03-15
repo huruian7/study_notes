@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "浅尝辄止.md",
+                "file": "Linux.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "浅尝辄止"
+              "title": "Linux"
             }
           }
         ]
@@ -154,13 +154,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "浅尝辄止.md",
+                "file": "Linux.md",
                 "followCursor": true,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "浅尝辄止 的大纲"
+              "title": "Linux 的大纲"
             }
           }
         ],
@@ -184,11 +184,11 @@
   },
   "active": "d6936692ac2d854c",
   "lastOpenFiles": [
+    "浅尝辄止.md",
     "数据存储实训.md",
     "Linux.md",
     "寒假打卡笔记.md",
     "JavaWeb.md",
-    "浅尝辄止.md",
     "Python.md",
     "MySQL.md",
     "概率论速成.md",
