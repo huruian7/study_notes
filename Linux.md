@@ -105,15 +105,16 @@ vim有三种编辑模式，默认进入命令模式（还有插入模式，底�
 4. set nu 显示行号
 5. set paste 原样粘贴(set nopaste)
 ```
-### 2.9 用户和用户组
-#### 2.9.1 su和sudo
+## 第三章 用户
+### 3.1 用户和用户组管理
+#### 3.1.1 su和sudo
 ```shell
 普通用户权限：仅可以在home目录操作
 1，sudo可以为用户提权（但需要输入密码）
 2，su是切换用户，不写用户名切换为root
 ps：但一般用exit切换用户，因为su是打开一个子进程套娃
 ```
-#### 2.9.2 sudo配置
+#### 3.1.2 sudo配置
 ```shell
 sudo并不是所有用户都有权使用，需要进行配置(下面以test用户为例)
 1，visudo /etc/sudoers
@@ -121,7 +122,7 @@ sudo并不是所有用户都有权使用，需要进行配置(下面以test用�
 
 ps:切勿用vim编辑，要用visudo，执行这个命令系统会打开nano安全编辑（会自动识别是否写入错误，如果错误回退）
 ```
-#### 2.9.3 添加/删除用户
+#### 3.1.3 添加/删除用户
 ```shell
 useradd [-gdm] 用户名
 1,-g代表指定路径
@@ -133,12 +134,13 @@ userdel [-r] 用户名
 
 ps:ubuntu有一个关于创建用户的adduser命令（引导模式），建议使用
 ```
-#### 2.9.4 添加/删除用户组
+#### 3.1.4 添加/删除用户组
 ```shell
 groupadd
 groupdel
 
 getent passwd 查看Linux系统所有用户信息
-getent group
-ps:可以去/etc/group去查看用户组信息
+getent group  查看用户组
+ps:也可以去/etc/shadow查看密码（但这是加密的），去/etc/group去查看用户组信息
 ```
+### 3.2 权限控制
