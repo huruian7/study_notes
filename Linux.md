@@ -143,4 +143,8 @@ getent passwd 查看Linux系统所有用户信息
 getent group  查看用户组
 ps:也可以去/etc/shadow查看密码（但这是加密的），去/etc/group去查看用户组信息
 ```
+#### 3.1.5 Linux远程连接
+```shell
+场景
+```
 ### 3.2 权限控制
