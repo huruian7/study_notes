@@ -41,10 +41,10 @@ cp/mv/rm [-rf] [源路径] [目标路径]
 ```shell
 touch [文件名]
 cat [路径]
-more
-t
+more  可翻页查看
+tail  从尾部查看
 ```
-2.5 grep wc
+### 2.5 grep wc
 
 ### vim编辑器
 ```shell
