@@ -42,9 +42,9 @@ cp/mv/rm [-rf] [源路径] [目标路径]
 touch [文件名]
 cat [路径]
 more
-tail
+t
 ```
-### 2.5 grep wc
+2.5 grep wc
 
 ### vim编辑器
 ```shell
