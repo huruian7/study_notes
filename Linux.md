@@ -59,9 +59,11 @@ tail  从尾部查看
 1，配合重定向符把内容写入文件
 echo "hello" > test.txt
 echo "hello" >> test.txt
-2,取变量的值（一般出现在shell脚本中）
+2,取变量的值,可拼接文件名/路径（一般出现在shell脚本中）
 name=hrx
-echo $name
+echo "name:$name"
+3,配合反引号作为命令执行
+echo `date`
 ```
 ### vim编辑器
 ```shell
