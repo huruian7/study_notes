@@ -186,3 +186,5 @@ chown root test.txt  修改该文件用户为root
 chown :test test.txt  修改该文件用户组为test
 chown root:test test.txt  修改该文件用户为root，用户组为test
 ```
+
+你好
