@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "ddsuiji.md",
+                "file": "sui ji.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "ddsuiji"
+              "title": "sui ji"
             }
           },
           {
@@ -166,13 +166,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "ddsuiji.md",
+                "file": "sui ji.md",
                 "followCursor": true,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "ddsuiji 的大纲"
+              "title": "sui ji 的大纲"
             }
           }
         ],
@@ -197,7 +197,7 @@
   "active": "df75637b3049dadb",
   "lastOpenFiles": [
     "浅尝辄止.md",
-    "ddsuiji.md",
+    "sui ji.md",
     "未命名 2.base",
     "未命名.base",
     "未命名 1.base",
