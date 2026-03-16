@@ -27,12 +27,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Linux.md",
+                "file": "JavaWeb.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Linux"
+              "title": "JavaWeb"
             }
           }
         ],
@@ -169,13 +169,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Linux.md",
+                "file": "JavaWeb.md",
                 "followCursor": true,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Linux 的大纲"
+              "title": "JavaWeb 的大纲"
             }
           }
         ],
@@ -183,7 +183,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 258.5
+    "width": 200
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -199,8 +199,8 @@
   },
   "active": "df75637b3049dadb",
   "lastOpenFiles": [
-    "个人规划.md",
     "Linux.md",
+    "个人规划.md",
     "图片/Pasted image 20260315095059.png",
     "数据存储实训.md",
     "浅尝辄止.md",
