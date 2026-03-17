@@ -13,7 +13,6 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "JavaWeb.md",
                 "file": "随记.md",
                 "mode": "source",
                 "source": false
@@ -188,7 +187,7 @@
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "JavaWeb 的大纲"
+              "title": "Linux Problem 的大纲"
             }
           }
         ],
