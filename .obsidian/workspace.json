@@ -27,12 +27,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Linux Problem.md",
+                "file": "Linux.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Linux Problem"
+              "title": "Linux"
             }
           },
           {
@@ -181,17 +181,27 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Linux Problem.md",
+                "file": "Linux.md",
                 "followCursor": true,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Linux Problem 的大纲"
+              "title": "Linux 的大纲"
+            }
+          },
+          {
+            "id": "df696a8951a3a94a",
+            "type": "leaf",
+            "state": {
+              "type": "git-view",
+              "state": {},
+              "icon": "git-pull-request",
+              "title": "Source Control"
             }
           }
         ],
-        "currentTab": 4
+        "currentTab": 5
       }
     ],
     "direction": "horizontal",
@@ -211,10 +221,10 @@
   },
   "active": "db0da8031d8d38be",
   "lastOpenFiles": [
+    "Linux Problem.md",
     "随记.md",
     "Linux.md",
     "JavaWeb.md",
-    "Linux Problem.md",
     "浅尝辄止.md",
     "未命名 2.base",
     "未命名.base",
