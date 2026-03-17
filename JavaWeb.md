@@ -31,6 +31,7 @@ label和input关联方式有两种
 内联样式  单个元素
 内部样式  当前页面
 外部样式  整个项目
+<link rel="stylesheet" href="">
 
 优先级：内联>内部>外部
 ```
