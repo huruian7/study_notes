@@ -8,31 +8,44 @@
         "type": "tabs",
         "children": [
           {
-            "id": "d6936692ac2d854c",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Linux.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Linux"
-            }
-          },
-          {
             "id": "df75637b3049dadb",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
                 "file": "JavaWeb.md",
+                "file": "随记.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
               "title": "JavaWeb"
+            }
+          },
+          {
+            "id": "db0da8031d8d38be",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Linux Problem.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Linux Problem"
+            }
+          },
+          {
+            "id": "ee53d5ba8ced64f5",
+            "type": "leaf",
+            "state": {
+              "type": "image",
+              "state": {
+                "file": "图片/length.png"
+              },
+              "icon": "lucide-image",
+              "title": "length"
             }
           }
         ],
@@ -169,7 +182,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "JavaWeb.md",
+                "file": "Linux Problem.md",
                 "followCursor": true,
                 "showSearch": false,
                 "searchQuery": ""
@@ -197,32 +210,37 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "df75637b3049dadb",
+  "active": "db0da8031d8d38be",
   "lastOpenFiles": [
+    "随记.md",
     "Linux.md",
-    "个人规划.md",
-    "图片/Pasted image 20260315095059.png",
-    "数据存储实训.md",
-    "浅尝辄止.md",
     "JavaWeb.md",
-    "寒假打卡笔记.md",
-    "README.md",
-    "Python.md",
-    "MySQL.md",
-    "概率论速成.md",
-    "Github开源项目.md",
-    "JavaScript修炼.md",
-    "未命名",
-    "数字逻辑.md",
-    "图片/P(X)公式.png",
-    "图片/key属性.png",
-    "图片/Pasted image 20260207145556.png",
-    "图片/var和let&&const.png",
+    "Linux Problem.md",
+    "浅尝辄止.md",
+    "未命名 2.base",
+    "未命名.base",
+    "未命名 1.base",
     "图片/length.png",
-    "图片/left jon 和right join.png",
-    "图片/Pasted image 20260108221939.png",
-    "图片/ddl语句总结.png",
+    "Python.md",
+    "Github开源项目.md",
     "图片/代理作用.png",
+    "图片/left jon 和right join.png",
+    "图片/Pasted image 20260207145556.png",
+    "数字逻辑.md",
+    "数据存储实训.md",
+    "寒假打卡笔记.md",
+    "概率论速成.md",
+    "图片/P(X)公式.png",
+    "未命名",
+    "README.md",
+    "个人规划.md",
+    "JavaScript修炼.md",
+    "图片/var和let&&const.png",
+    "图片/key属性.png",
+    "图片/ddl语句总结.png",
+    "图片/Pasted image 20260315095059.png",
+    "MySQL.md",
+    "图片/Pasted image 20260108221939.png",
     "P(x)公式.md",
     "图片",
     "图片.md",

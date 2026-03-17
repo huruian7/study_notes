@@ -134,6 +134,10 @@ useradd [-gdm] 用户名
 userdel [-r] 用户名
 1，如果没有-r则不删除对应用户文件夹
 
+
+
+usermod –aG 附加新组
+
 ps:ubuntu有一个关于创建用户的adduser命令（引导模式），建议使用
 ```
 #### 3.1.4 添加/删除用户组
@@ -177,7 +181,7 @@ chmod 751 test.txt
 chmod 664 image
 常见图片，文本等资源，表示所属用户和用户组可读可写，其他用户仅可读
 ```
-### 3.4 chown修改用户/用户组
+### 3.4 chown修改用户/用户组（文件所属）
 ```shell
 仅适用于root用户（其他用户无法执行）
 chown -R [用户]:[用户组] 文件或文件夹
@@ -186,3 +190,5 @@ chown root test.txt  修改该文件用户为root
 chown :test test.txt  修改该文件用户组为test
 chown root:test test.txt  修改该文件用户为root，用户组为test
 ```
+#＃＃ 3.5 usermod修改用户组（用户所属）
+–aG 新组名 用户名
