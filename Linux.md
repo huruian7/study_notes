@@ -190,9 +190,7 @@ chown root test.txt  修改该文件用户为root
 chown :test test.txt  修改该文件用户组为test
 chown root:test test.txt  修改该文件用户为root，用户组为test
 ```
-#＃＃ 3.5 usermod修改用户组（用户所属）
-–aG 新组名 用户名
 
 
 
-我是大帅哥
+
