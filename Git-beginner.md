@@ -66,6 +66,7 @@
 删除分支
 7. git branch -a
 8. git branch -r
+   git branch -vv
 ```
 <div style="font-weight:bold;color:#d4a5a5">PS:有没有人疑惑为什么branch是-m,-d；remote确是rename,remote。我们可以这样记忆，因为先有remote再有branch，那自然remote的选项必branch长咯</div>
 ### 2,3 pull
@@ -80,5 +81,5 @@ pull，顾名思义，从远程拉取代码。但它其实是git fetch（拉取�
 git clone
 git merge
 冲突
-git status
+git statusff
 fetch和push
