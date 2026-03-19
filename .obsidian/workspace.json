@@ -11,13 +11,32 @@
             "id": "cdce38921a5f9ff5",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
+              "type": "markdown",
+              "state": {
+                "file": "Git-beginner.md",
+                "mode": "source",
+                "source": false
+              },
               "icon": "lucide-file",
-              "title": "新标签页"
+              "title": "Git-beginner"
+            }
+          },
+          {
+            "id": "ccd3123d96ebba4d",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "dai li.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "dai li"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -188,36 +207,37 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "cdce38921a5f9ff5",
+  "active": "ccd3123d96ebba4d",
   "lastOpenFiles": [
     "Git-beginner.md",
-    "个人规划.md",
-    "README.md",
-    "Github开源项目.md",
+    "dai li.md",
+    "JavaWeb.md",
     "MySQL.md",
+    "README.md",
     "随记.md",
+    "个人规划.md",
+    "Linux.md",
+    "浅尝辄止.md",
+    "概率论速成.md",
+    "Github开源项目.md",
+    "Python.md",
+    "数字逻辑.md",
+    "JavaScript修炼.md",
+    "图片/key属性.png",
     "图片/length.png",
     "数据存储实训.md",
-    "概率论速成.md",
-    "Linux.md",
     "Git小白向.md",
     "Linux Problem.md",
-    "JavaScript修炼.md",
-    "JavaWeb.md",
-    "浅尝辄止.md",
     "未命名 2.base",
     "未命名.base",
     "未命名 1.base",
-    "Python.md",
     "图片/代理作用.png",
     "图片/left jon 和right join.png",
     "图片/Pasted image 20260207145556.png",
-    "数字逻辑.md",
     "寒假打卡笔记.md",
     "图片/P(X)公式.png",
     "未命名",
     "图片/var和let&&const.png",
-    "图片/key属性.png",
     "图片/ddl语句总结.png",
     "图片/Pasted image 20260315095059.png",
     "图片/Pasted image 20260108221939.png",

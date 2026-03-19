@@ -56,7 +56,7 @@ xor  异或（互斥筛选），可以运用于礼券发放场景，假设一个
  select round(81.6.-1)  --80
  ```
  6. length(),char_length()    前者是字节，后者是字符
- ![[length.png]]
+ ![[length.png|94]]
 
 注意：group by分组后，select查询只能查询分组的字段，否则没有实际意义会报错
 比如select class_id,count( * ) from student group by class_id;   (按谁分组查询谁)
