@@ -194,3 +194,15 @@ chown root:test test.txt  修改该文件用户为root，用户组为test
 
 
 
+ctrl+shift+t
+alt+F2(snap,apt,系统工具):
+配合locate查找
+wechat
+obsidian
+google-chrome
+
+
+## Linux注意事项
+Ubuntu 桌面系统出于安全考虑，**默认禁用 root 账户并未设置密码**
+sudo -i(log**i**n)
+sudo su
