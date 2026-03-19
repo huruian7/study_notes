@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "随记.md",
+                "file": "Git-beginner.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "JavaWeb"
+              "title": "Git-beginner"
             }
           },
           {
@@ -49,8 +49,7 @@
               "title": "Git-beginner"
             }
           }
-        ],
-        "currentTab": 2
+        ]
       }
     ],
     "direction": "vertical"
@@ -221,15 +220,16 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "61853a6b798614e2",
+  "active": "df75637b3049dadb",
   "lastOpenFiles": [
-    "图片/length.png",
+    "MySQL.md",
+    "随记.md",
+    "个人规划.md",
     "Git-beginner.md",
+    "图片/length.png",
     "数据存储实训.md",
     "概率论速成.md",
-    "随记.md",
     "Linux.md",
-    "个人规划.md",
     "Git小白向.md",
     "Linux Problem.md",
     "Github开源项目.md",
@@ -252,7 +252,6 @@
     "图片/key属性.png",
     "图片/ddl语句总结.png",
     "图片/Pasted image 20260315095059.png",
-    "MySQL.md",
     "图片/Pasted image 20260108221939.png",
     "P(x)公式.md",
     "图片",
