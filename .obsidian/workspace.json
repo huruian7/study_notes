@@ -27,12 +27,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "dai li.md",
+                "file": "代理.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "dai li"
+              "title": "代理"
             }
           }
         ],
@@ -210,7 +210,7 @@
   "active": "ccd3123d96ebba4d",
   "lastOpenFiles": [
     "Git-beginner.md",
-    "dai li.md",
+    "代理.md",
     "JavaWeb.md",
     "MySQL.md",
     "README.md",
