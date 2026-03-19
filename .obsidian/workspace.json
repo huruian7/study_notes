@@ -4,49 +4,17 @@
     "type": "split",
     "children": [
       {
-        "id": "22d577885284f6ac",
+        "id": "269b16c30fc5cd7a",
         "type": "tabs",
         "children": [
           {
-            "id": "df75637b3049dadb",
+            "id": "cdce38921a5f9ff5",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Git-beginner.md",
-                "mode": "source",
-                "source": false
-              },
+              "type": "empty",
+              "state": {},
               "icon": "lucide-file",
-              "title": "Git-beginner"
-            }
-          },
-          {
-            "id": "db0da8031d8d38be",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "个人规划.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "个人规划"
-            }
-          },
-          {
-            "id": "61853a6b798614e2",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Git-beginner.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Git-beginner"
+              "title": "新标签页"
             }
           }
         ]
@@ -220,19 +188,20 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "df75637b3049dadb",
+  "active": "cdce38921a5f9ff5",
   "lastOpenFiles": [
+    "Git-beginner.md",
+    "个人规划.md",
+    "README.md",
+    "Github开源项目.md",
     "MySQL.md",
     "随记.md",
-    "个人规划.md",
-    "Git-beginner.md",
     "图片/length.png",
     "数据存储实训.md",
     "概率论速成.md",
     "Linux.md",
     "Git小白向.md",
     "Linux Problem.md",
-    "Github开源项目.md",
     "JavaScript修炼.md",
     "JavaWeb.md",
     "浅尝辄止.md",
@@ -247,7 +216,6 @@
     "寒假打卡笔记.md",
     "图片/P(X)公式.png",
     "未命名",
-    "README.md",
     "图片/var和let&&const.png",
     "图片/key属性.png",
     "图片/ddl语句总结.png",
