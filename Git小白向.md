@@ -13,7 +13,10 @@
 -C 注释
 2. cat ~/.ssh/id_ed25519.pub（默认路径在~/.ssh下。Windows用type命令,但注意分隔符是\）
 这里注意一把公钥完全可以粘贴到各平台，比如id_ed25519.pub可以放到Linux云服务器，也可以放到gitee/github平台上
+3. 检测 SSH 密钥是否匹配成功
+-T让 SSH 连接只做 “密钥认证”，不创建任何终端会话
 ```
+![[ssh.png]]
 ### 1,2 创建本地及云端仓库
 ```shell
 1. git init

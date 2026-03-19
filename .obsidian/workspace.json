@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Git-beginner.md",
+                "file": "Git小白向.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Git-beginner"
+              "title": "Git小白向"
             }
           },
           {
@@ -27,12 +27,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Git-beginner.md",
+                "file": "Git小白向.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Git-beginner"
+              "title": "Git小白向"
             }
           }
         ],
@@ -209,40 +209,40 @@
   },
   "active": "ccd3123d96ebba4d",
   "lastOpenFiles": [
-    "Linux.md",
-    "JavaWeb.md",
-    "Git-beginner.md",
-    "代理.md",
-    "MySQL.md",
-    "README.md",
-    "随记.md",
-    "个人规划.md",
-    "浅尝辄止.md",
-    "概率论速成.md",
-    "Github开源项目.md",
-    "Python.md",
-    "数字逻辑.md",
-    "JavaScript修炼.md",
-    "图片/key属性.png",
-    "图片/length.png",
-    "数据存储实训.md",
+    "images/检验ssh是否授权成功.png",
+    "images/ssh.png",
     "Git小白向.md",
+    "Linux.md",
+    "个人规划.md",
+    "JavaWeb.md",
+    "概率论速成.md",
+    "Python.md",
+    "Github开源项目.md",
+    "MySQL.md",
+    "寒假打卡笔记.md",
+    "浅尝辄止.md",
+    "README.md",
+    "图片/Pasted image 20260319181840.png",
+    "图片/Pasted image 20260319181832.png",
+    "数据存储实训.md",
+    "数字逻辑.md",
+    "代理.md",
+    "随记.md",
+    "JavaScript修炼.md",
+    "images/key属性.png",
+    "images/length.png",
     "Linux Problem.md",
     "未命名 2.base",
     "未命名.base",
     "未命名 1.base",
-    "图片/代理作用.png",
-    "图片/left jon 和right join.png",
-    "图片/Pasted image 20260207145556.png",
-    "寒假打卡笔记.md",
-    "图片/P(X)公式.png",
+    "images/代理作用.png",
+    "images/left jon 和right join.png",
+    "images/Pasted image 20260207145556.png",
+    "images/P(X)公式.png",
     "未命名",
-    "图片/var和let&&const.png",
-    "图片/ddl语句总结.png",
-    "图片/Pasted image 20260315095059.png",
-    "图片/Pasted image 20260108221939.png",
+    "images/var和let&&const.png",
     "P(x)公式.md",
-    "图片",
+    "images",
     "图片.md",
     "未命名.canvas"
   ]
