@@ -11,14 +11,12 @@
             "id": "ccd3123d96ebba4d",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "image",
               "state": {
-                "file": "Git小白向.md",
-                "mode": "source",
-                "source": false
+                "file": "images/P(X)公式.png"
               },
-              "icon": "lucide-file",
-              "title": "Git小白向"
+              "icon": "lucide-image",
+              "title": "P(X)公式"
             }
           }
         ]
@@ -194,15 +192,22 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "ccd3123d96ebba4d",
+  "active": "b57551af06bc0783",
   "lastOpenFiles": [
+    "images/key属性.png",
+    "images/var和let&&const.png",
+    "images/代理作用.png",
+    "images/ssh.png",
+    "images/Pasted image 20260315095059.png",
+    "images/left jon 和right join.png",
+    "images/P(X)公式.png",
+    "images/Pasted image 20260207145556.png",
+    "Git小白向.md",
     "代理.md",
     "README.md",
     "随记.md",
     "Linux.md",
-    "Git小白向.md",
     "images/检验ssh是否授权成功.png",
-    "images/ssh.png",
     "个人规划.md",
     "JavaWeb.md",
     "概率论速成.md",
@@ -216,16 +221,10 @@
     "数据存储实训.md",
     "数字逻辑.md",
     "JavaScript修炼.md",
-    "images/key属性.png",
-    "images/length.png",
     "Linux Problem.md",
     "未命名 2.base",
     "未命名.base",
     "未命名 1.base",
-    "images/代理作用.png",
-    "images/left jon 和right join.png",
-    "images/Pasted image 20260207145556.png",
-    "images/P(X)公式.png",
     "未命名",
     "P(x)公式.md",
     "images",
