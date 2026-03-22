@@ -85,6 +85,8 @@ pull，顾名思义，从远程拉取代码。但它其实是git fetch（拉取�
 <div style="font-weight:bold;color:#d4a5a5">PS:特别注意，pull和push是两个完全独立的操作，不要认为push到远程仓库了，下次pull就可以自动从远程仓库拉代码。push不会自动关联（除非加了-u选项），所以我们需要显示地关联本地分支和远程分支</div>
 
 git clone
+https
+ssh
 git merge
 冲突
 git statusff

@@ -11,12 +11,14 @@
             "id": "ccd3123d96ebba4d",
             "type": "leaf",
             "state": {
-              "type": "image",
+              "type": "markdown",
               "state": {
-                "file": "images/P(X)公式.png"
+                "file": "Git小白向.md",
+                "mode": "source",
+                "source": false
               },
-              "icon": "lucide-image",
-              "title": "P(X)公式"
+              "icon": "lucide-file",
+              "title": "Git小白向"
             }
           }
         ]
@@ -192,15 +194,17 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "b57551af06bc0783",
+  "active": "ccd3123d96ebba4d",
   "lastOpenFiles": [
+    "images/Pasted image 20260315095059.png",
     "images/key属性.png",
+    "images/left jon 和right join.png",
+    "images/ssh.png",
+    "images/length.png",
+    "images/P(X)公式.png",
+    "Github开源项目.md",
     "images/var和let&&const.png",
     "images/代理作用.png",
-    "images/ssh.png",
-    "images/Pasted image 20260315095059.png",
-    "images/left jon 和right join.png",
-    "images/P(X)公式.png",
     "images/Pasted image 20260207145556.png",
     "Git小白向.md",
     "代理.md",
@@ -212,12 +216,10 @@
     "JavaWeb.md",
     "概率论速成.md",
     "Python.md",
-    "Github开源项目.md",
     "MySQL.md",
     "寒假打卡笔记.md",
     "浅尝辄止.md",
     "图片/Pasted image 20260319181840.png",
-    "图片/Pasted image 20260319181832.png",
     "数据存储实训.md",
     "数字逻辑.md",
     "JavaScript修炼.md",
