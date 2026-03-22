@@ -206,3 +206,27 @@ google-chrome
 Ubuntu 桌面系统出于安全考虑，**默认禁用 root 账户并未设置密码**
 sudo -i(log**i**n)
 sudo su
+
+
+```bash
+  GNU nano 7.2                                Pycharm.desktop                                          
+[Desktop Entry]
+# 启动器的名称（显示在桌面或菜单里的名字）
+Name=Pycharm
+# 鼠标悬停时的描述
+Comment=Knowledge base on top of local Markdown files
+# 可执行文件的绝对路径
+Exec=/home/huruixi/桌面/software/pycharm-2025.3.3/bin/pycharm
+# 图标文件的绝对路径
+Icon=/home/huruixi/桌面/software/pycharm-2025.3.3/bin/pycharm.png
+# 是否在终端运行（GUI程序通常设为false）
+Terminal=false
+# 类型，固定为Application
+Type=Application
+# 分类，方便在应用菜单里查找
+Categories=Office;TextEditor;Utility;
+# 支持在 Dock 上显示（可选）
+StartupWMClass=obsidian
+
+
+```

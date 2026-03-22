@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Git小白向.md",
+                "file": "Linux.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Git小白向"
+              "title": "Linux"
             }
           }
         ]
@@ -196,6 +196,7 @@
   },
   "active": "ccd3123d96ebba4d",
   "lastOpenFiles": [
+    "Git小白向.md",
     "images/Pasted image 20260315095059.png",
     "images/key属性.png",
     "images/left jon 和right join.png",
@@ -206,7 +207,6 @@
     "images/var和let&&const.png",
     "images/代理作用.png",
     "images/Pasted image 20260207145556.png",
-    "Git小白向.md",
     "代理.md",
     "README.md",
     "随记.md",
@@ -219,7 +219,6 @@
     "MySQL.md",
     "寒假打卡笔记.md",
     "浅尝辄止.md",
-    "图片/Pasted image 20260319181840.png",
     "数据存储实训.md",
     "数字逻辑.md",
     "JavaScript修炼.md",
